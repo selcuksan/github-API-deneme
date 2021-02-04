@@ -4,7 +4,7 @@ import requests
 class Github:
     def __init__(self):
         self.api_url = "https://api.github.com"
-        self.token = "***************************************"  # Kullanıcıya özel api token'ı
+        self.token = "***************************************"  # Kullanıcıya özel GITHUB API token'ı
 
     # İstek üzerine istenilen kullancının bazı bilgilerini getiren metot.
     def get_user(self, name):
